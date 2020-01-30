@@ -1,0 +1,23 @@
+.navbar-dark{
+    background-color: #ff7c55 !important;
+    font-family: "moon";
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+
+#login-link{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80%;
+}
