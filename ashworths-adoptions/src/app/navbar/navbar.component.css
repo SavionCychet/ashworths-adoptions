@@ -1,23 +1,38 @@
-.navbar-dark{
-    background-color: #ff7c55 !important;
-    font-family: "moon";
+.navbar-dark {
+  background-color: #ff7c55 !important;
+  font-family: "moon";
 }
 
 .navbar-nav {
-    display: flex;
-    flex-direction: row;
-    margin-left: 10%;
-    
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 10%;
 }
 
-.nav-link{
-    display: flex;
-    flex-direction: row;
-    margin-left: 10%;
+.nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 10%;
 }
 
-#login-link{
-    display: flex;
-    flex-direction: row;
-    margin-left: 80%;
+#login-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 80%;
 }
+/*# sourceMappingURL=navbar.component.css.map */
