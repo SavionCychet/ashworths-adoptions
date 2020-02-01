@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,EAAE,KAAK,CAAC;EACjB,aAAa,EAAE,IAAI;CACtB;;AAED,AAAA,IAAI,CAAA;EACA,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CACtB;;AAED,AAAA,OAAO,EAAE,OAAO,CAAA;EACZ,WAAW,EAAE,EAAE;EACf,UAAU,EAAE,EAAE;EACd,aAAa,EAAE,EAAE;CACpB;;AAED,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,OAAO;EACzB,YAAY,EAAE,OAAO;EACrB,WAAW,EAAE,MAAM;CACtB",
+    "sources": [
+        "new-rescues.component.scss"
+    ],
+    "names": [],
+    "file": "new-rescues.component.css"
+}
