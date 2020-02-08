@@ -1,9 +1,0 @@
-body{
-    background: #ff7c55
-}
-
-h1, h2{
-    display: flex;
-    justify-content: center;
-    font-family: "moon";
-}

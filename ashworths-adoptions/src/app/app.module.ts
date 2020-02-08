@@ -10,6 +10,7 @@ import { ImgsliderComponent } from './imgslider/imgslider.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { NewRescuesComponent } from './new-rescues/new-rescues.component';
 import { AboutPageComponent } from './about-page/about-page.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +20,14 @@ import { AboutPageComponent } from './about-page/about-page.component';
     WelcomeComponent,
     NewRescuesComponent,
     AboutPageComponent,
+    HomePageComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     RouterModule.forRoot([
+      { path: '', component: HomePageComponent },
       { path: 'about', component: AboutPageComponent }
     ])
   ],
