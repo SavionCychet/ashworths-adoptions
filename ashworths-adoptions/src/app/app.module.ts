@@ -11,6 +11,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { NewRescuesComponent } from './new-rescues/new-rescues.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     NewRescuesComponent,
     AboutPageComponent,
     HomePageComponent,
+    ContactPageComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,7 +32,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     AppRoutingModule,
     RouterModule.forRoot([
       { path: '', component: HomePageComponent },
-      { path: 'about', component: AboutPageComponent }
+      { path: 'about', component: AboutPageComponent },
+      { path: 'contact', component: ContactPageComponent }
     ])
   ],
   providers: [],
