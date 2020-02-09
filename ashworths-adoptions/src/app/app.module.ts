@@ -13,6 +13,7 @@ import { AboutPageComponent } from './about-page/about-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { FooterComponent } from './footer/footer.component';
+import { NewAdoptsComponent } from './new-adopts/new-adopts.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { FooterComponent } from './footer/footer.component';
     HomePageComponent,
     ContactPageComponent,
     FooterComponent,
+    NewAdoptsComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { FooterComponent } from './footer/footer.component';
     RouterModule.forRoot([
       { path: '', component: HomePageComponent },
       { path: 'about', component: AboutPageComponent },
-      { path: 'contact', component: ContactPageComponent }
+      { path: 'contact', component: ContactPageComponent },
+      
     ])
   ],
   providers: [],

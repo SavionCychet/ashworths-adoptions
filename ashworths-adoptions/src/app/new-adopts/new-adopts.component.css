@@ -18,7 +18,7 @@
           flex-direction: row;
 }
 
-.card, #card-2, #card-3 {
+.card, #card-2, #card-3, #card-4, #card-5, #card-6 {
   margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -29,4 +29,4 @@
   border-color: #ff7c55;
   font-family: "moon";
 }
-/*# sourceMappingURL=new-rescues.component.css.map */
+/*# sourceMappingURL=new-adopts.component.css.map */
