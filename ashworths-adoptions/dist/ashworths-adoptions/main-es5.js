@@ -131,7 +131,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<imgslider></imgslider>\n<welcome></welcome>\n<h1>RECENT RESCUES</h1>\n<new-rescues></new-rescues>\n<h2>NEWLY ADOPTED</h2>";
+    __webpack_exports__["default"] = "<imgslider></imgslider>\n<welcome></welcome>\n<h1>RECENT RESCUES</h1>\n<new-rescues></new-rescues>\n<h2>NEWLY ADOPTED</h2>\n<new-adopts></new-adopts>";
     /***/
   },
 
@@ -171,7 +171,27 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<nav class=\"navbar navbar-dark bg-primary\">\r\n        <ul class=\"nav justify-content-center\">\r\n            <li class=\"nav-link \" id=\"home-link\">\r\n              <a class=\"nav-link\" routerLink=\"/\">Home <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-link \" id=\"about-link\">\r\n              <a class=\"nav-link\" routerLink=\"/about\">About<span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-link \" id=\"breeds-link\">\r\n              <a class=\"nav-link\" routerLink=\"/breeds\">Breeds <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-link \" id=\"contact-link\">\r\n              <a class=\"nav-link\" routerLink=\"/contact\">Contact <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-link \" id=\"register-link\">\r\n                    <a class=\"nav-link\" href=\"#\">Adopt! <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n          </ul>\r\n    </nav>\r\n\r\n    ";
+    __webpack_exports__["default"] = "<nav class=\"navbar navbar-dark bg-primary\">\r\n        <ul class=\"nav justify-content-center\">\r\n            <li class=\"nav-link \" id=\"home-link\">\r\n              <a class=\"nav-link\" routerLink=\"/\">Home <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-link \" id=\"about-link\">\r\n              <a class=\"nav-link\" routerLink=\"/about\">About<span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-link \" id=\"breeds-link\">\r\n              <a class=\"nav-link\" routerLink=\"/adopt\">Adopt <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-link \" id=\"contact-link\">\r\n              <a class=\"nav-link\" routerLink=\"/contact\">Contact <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n            <li class=\"nav-link \" id=\"register-link\">\r\n                    <a class=\"nav-link\" routerLink=\"/donate\">Donate <span class=\"sr-only\">(current)</span></a>\r\n            </li>\r\n          </ul>\r\n    </nav>\r\n\r\n    ";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/new-adopts/new-adopts.component.html":
+  /*!********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/new-adopts/new-adopts.component.html ***!
+    \********************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppNewAdoptsNewAdoptsComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"row\">\n    <div class=\"card\" id=\"card-1\" style=\"width: 18rem;\">\n        <img src=\"../../assets/images/biscuit.jpg\" class=\"card-img-top\" alt=\"...\">\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">Biscuit</h5>\n          <p class=\"card-text\">\n            Age: 2\n            <br>\n              Gender: Male\n            <br>\n            Breed: Terrier\n          </p>\n          <a href=\"#\" class=\"btn btn-primary\">Learn More</a>\n        </div>\n      </div>\n    \n      <div class=\"card\" id=\"card-2\" style=\"width: 18rem;\">\n        <img src=\"../../assets/images/fido.jpg\" class=\"card-img-top\" alt=\"...\">\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">Fido</h5>\n          <p class=\"card-text\">Age: 1\n              <br>\n              Gender: Male\n              <br>\n              Breed: Boxer</p>\n          <a href=\"#\" class=\"btn btn-primary\">Learn More</a>\n        </div>\n      </div>\n    \n      <div class=\"card\" id=\"card-3\" style=\"width: 18rem;\">\n        <img src=\"../../assets/images/finti.jpg\" class=\"card-img-top\" alt=\"...\">\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">Fenti</h5>\n          <p class=\"card-text\">Age: 1\n              <br>\n              Gender: Female\n              <br>\n              Breed: Stabyhoun</p>\n          <a href=\"#\" class=\"btn btn-primary\">Learn More</a>\n        </div>\n      </div>\n      </div>\n\n      <div class=\"row\">\n        <div class=\"card\" id=\"card-1\" style=\"width: 18rem;\">\n            <img src=\"../../assets/images/cychet.jpg\" class=\"card-img-top\" alt=\"...\">\n            <div class=\"card-body\">\n              <h5 class=\"card-title\">Cychet</h5>\n              <p class=\"card-text\">\n                Age: 1\n                <br>\n                  Gender: Male\n                <br>\n                Breed: Dalmatian (possibly mixed)\n              </p>\n              <a href=\"#\" class=\"btn btn-primary\">Learn More</a>\n            </div>\n          </div>\n        \n          <div class=\"card\" id=\"card-2\" style=\"width: 18rem;\">\n            <img src=\"../../assets/images/todoroki.jpg\" class=\"card-img-top\" alt=\"...\">\n            <div class=\"card-body\">\n              <h5 class=\"card-title\">Todoroki</h5>\n              <p class=\"card-text\">Age: 3\n                  <br>\n                  Gender: Male\n                  <br>\n                  Breed: Shuba Inu</p>\n              <a href=\"#\" class=\"btn btn-primary\">Learn More</a>\n            </div>\n          </div>\n        \n          <div class=\"card\" id=\"card-3\" style=\"width: 18rem;\">\n            <img src=\"../../assets/images/xarthur.jpg\" class=\"card-img-top\" alt=\"...\">\n            <div class=\"card-body\">\n              <h5 class=\"card-title\">Xarthur</h5>\n              <p class=\"card-text\">Age: 1\n                  <br>\n                  Gender: Male\n                  <br>\n                  Breed: Corgi</p>\n              <a href=\"#\" class=\"btn btn-primary\">Learn More</a>\n            </div>\n          </div>\n          </div>";
     /***/
   },
 
@@ -1080,13 +1100,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _footer_footer_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
     /*! ./footer/footer.component */
     "./src/app/footer/footer.component.ts");
+    /* harmony import */
+
+
+    var _new_adopts_new_adopts_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    /*! ./new-adopts/new-adopts.component */
+    "./src/app/new-adopts/new-adopts.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_7__["NavbarComponent"], _imgslider_imgslider_component__WEBPACK_IMPORTED_MODULE_8__["ImgsliderComponent"], _welcome_welcome_component__WEBPACK_IMPORTED_MODULE_9__["WelcomeComponent"], _new_rescues_new_rescues_component__WEBPACK_IMPORTED_MODULE_10__["NewRescuesComponent"], _about_page_about_page_component__WEBPACK_IMPORTED_MODULE_11__["AboutPageComponent"], _home_page_home_page_component__WEBPACK_IMPORTED_MODULE_12__["HomePageComponent"], _contact_page_contact_page_component__WEBPACK_IMPORTED_MODULE_13__["ContactPageComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_14__["FooterComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"], _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_7__["NavbarComponent"], _imgslider_imgslider_component__WEBPACK_IMPORTED_MODULE_8__["ImgsliderComponent"], _welcome_welcome_component__WEBPACK_IMPORTED_MODULE_9__["WelcomeComponent"], _new_rescues_new_rescues_component__WEBPACK_IMPORTED_MODULE_10__["NewRescuesComponent"], _about_page_about_page_component__WEBPACK_IMPORTED_MODULE_11__["AboutPageComponent"], _home_page_home_page_component__WEBPACK_IMPORTED_MODULE_12__["HomePageComponent"], _contact_page_contact_page_component__WEBPACK_IMPORTED_MODULE_13__["ContactPageComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_14__["FooterComponent"], _new_adopts_new_adopts_component__WEBPACK_IMPORTED_MODULE_15__["NewAdoptsComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"], _app_routing_app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"], _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"].forRoot([{
         path: '',
         component: _home_page_home_page_component__WEBPACK_IMPORTED_MODULE_12__["HomePageComponent"]
@@ -1277,7 +1303,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "body{\r\n    background: #ff7c55\r\n}\r\n\r\nh1, h2{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n    font-family: \"moon\";\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS1wYWdlL2hvbWUtcGFnZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0k7QUFDSjs7QUFFQTtJQUNJLG9CQUFhO0lBQWIsYUFBYTtJQUNiLHdCQUF1QjtZQUF2Qix1QkFBdUI7SUFDdkIsbUJBQW1CO0FBQ3ZCIiwiZmlsZSI6InNyYy9hcHAvaG9tZS1wYWdlL2hvbWUtcGFnZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keXtcclxuICAgIGJhY2tncm91bmQ6ICNmZjdjNTVcclxufVxyXG5cclxuaDEsIGgye1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgZm9udC1mYW1pbHk6IFwibW9vblwiO1xyXG59Il19 */";
+    __webpack_exports__["default"] = "body{\r\n    background: #ff7c55\r\n}\r\n\r\nh1, h2{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n    -webkit-box-align: center;\r\n            align-items: center;\r\n    font-family: \"moon\";\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS1wYWdlL2hvbWUtcGFnZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0k7QUFDSjs7QUFFQTtJQUNJLG9CQUFhO0lBQWIsYUFBYTtJQUNiLHdCQUF1QjtZQUF2Qix1QkFBdUI7SUFDdkIseUJBQW1CO1lBQW5CLG1CQUFtQjtJQUNuQixtQkFBbUI7QUFDdkIiLCJmaWxlIjoic3JjL2FwcC9ob21lLXBhZ2UvaG9tZS1wYWdlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5e1xyXG4gICAgYmFja2dyb3VuZDogI2ZmN2M1NVxyXG59XHJcblxyXG5oMSwgaDJ7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAgZm9udC1mYW1pbHk6IFwibW9vblwiO1xyXG59Il19 */";
     /***/
   },
 
@@ -1435,7 +1461,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".navbar-dark {\n  background-color: #ff7c55 !important;\n  font-family: \"moon\";\n}\n\n.navbar-nav {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  margin-left: 10%;\n}\n\n.nav-link {\n  color: white;\n}\n\n/*# sourceMappingURL=navbar.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2YmFyL25hdmJhci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvbmF2YmFyL25hdmJhci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksb0NBQW9DO0VBQ3BDLG1CQUFtQjtBQ0N2Qjs7QURFQTtFQUNJLG9CQUFhO0VBRWIsYUFBYTtFQUVoQiw4QkFBQTtFQ0FDLDZCQUE2QjtVREdwQixtQkFBSztFQUNmLGdCQUFBO0FDQUQ7O0FBRUE7RUFDRSxZQUFZO0FBQ2Q7O0FBQ0EsK0NBQStDIiwiZmlsZSI6InNyYy9hcHAvbmF2YmFyL25hdmJhci5jb21wb25lbnQuY3NzIn0= */";
+    __webpack_exports__["default"] = ".navbar-dark {\n  background-color: #ff7c55 !important;\n  font-family: \"Moon\";\n}\n\n.navbar-nav {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n  margin-left: 10%;\n}\n\n.nav-link {\n  color: white;\n}\n\n/*# sourceMappingURL=navbar.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2YmFyL25hdmJhci5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvbmF2YmFyL25hdmJhci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksb0NBQW9DO0VBQ3BDLG1CQUFtQjtBQ0N2Qjs7QURFQTtFQUNJLG9CQUFhO0VBRWIsYUFBYTtFQUVoQiw4QkFBQTtFQ0FDLDZCQUE2QjtVREdwQixtQkFBSztFQUNmLGdCQUFBO0FDQUQ7O0FBRUE7RUFDRSxZQUFZO0FBQ2Q7O0FBQ0EsK0NBQStDIiwiZmlsZSI6InNyYy9hcHAvbmF2YmFyL25hdmJhci5jb21wb25lbnQuY3NzIn0= */";
     /***/
   },
 
@@ -1499,6 +1525,85 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./src/app/new-adopts/new-adopts.component.css":
+  /*!*****************************************************!*\
+    !*** ./src/app/new-adopts/new-adopts.component.css ***!
+    \*****************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppNewAdoptsNewAdoptsComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = ".card-img-top, .card {\n  border-radius: 15px;\n}\n\n.row {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n}\n\n.card, #card-2, #card-3, #card-4, #card-5, #card-6 {\n  margin-left: 5%;\n  margin-top: 5%;\n  margin-bottom: 5%;\n}\n\n.btn {\n  background-color: #ff7c55;\n  border-color: #ff7c55;\n  font-family: \"moon\";\n}\n\n/*# sourceMappingURL=new-adopts.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3LWFkb3B0cy9uZXctYWRvcHRzLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9uZXctYWRvcHRzL25ldy1hZG9wdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1CQUFtQjtBQ0N2Qjs7QURFQTtFQUNJLG9CQUFhO0VBRWIsYUFBYTtFQUNiLHdCQUFtQjtVQ0ViLHVCQUF1QjtFRENqQyx5QkFBeUI7VUFFckIsbUJBQWM7RUFDZCw4QkFBaUI7RUFFcEIsNkJBQUE7VUFFRyxtQkFBQTtBQ0FKOztBQUVBO0VERUMsZUFBQTtFQ0FDLGNBQWM7RUFDZCxpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIscUJBQXFCO0VBQ3JCLG1CQUFtQjtBQUNyQjs7QUFDQSxtREFBbUQiLCJmaWxlIjoic3JjL2FwcC9uZXctYWRvcHRzL25ldy1hZG9wdHMuY29tcG9uZW50LmNzcyJ9 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/new-adopts/new-adopts.component.ts":
+  /*!****************************************************!*\
+    !*** ./src/app/new-adopts/new-adopts.component.ts ***!
+    \****************************************************/
+
+  /*! exports provided: NewAdoptsComponent */
+
+  /***/
+  function srcAppNewAdoptsNewAdoptsComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "NewAdoptsComponent", function () {
+      return NewAdoptsComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var NewAdoptsComponent =
+    /*#__PURE__*/
+    function () {
+      function NewAdoptsComponent() {
+        _classCallCheck(this, NewAdoptsComponent);
+      }
+
+      _createClass(NewAdoptsComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return NewAdoptsComponent;
+    }();
+
+    NewAdoptsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'new-adopts',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./new-adopts.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/new-adopts/new-adopts.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./new-adopts.component.css */
+      "./src/app/new-adopts/new-adopts.component.css")).default]
+    })], NewAdoptsComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/new-rescues/new-rescues.component.css":
   /*!*******************************************************!*\
     !*** ./src/app/new-rescues/new-rescues.component.css ***!
@@ -1514,7 +1619,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".card-img-top, .card {\n  border-radius: 15px;\n}\n\n.row {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n}\n\n#card-2, #card-3 {\n  margin-left: 5%;\n  margin-top: 5%;\n  margin-bottom: 5%;\n}\n\n.btn {\n  background-color: #ff7c55;\n  border-color: #ff7c55;\n  font-family: \"moon\";\n}\n\n/*# sourceMappingURL=new-rescues.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3LXJlc2N1ZXMvbmV3LXJlc2N1ZXMuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL25ldy1yZXNjdWVzL25ldy1yZXNjdWVzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxtQkFBbUI7QUNDdkI7O0FERUE7RUFDSSxvQkFBYTtFQUViLGFBQWE7RUFDaEIsd0JBQUE7VUFFUSx1QkFBTztFQUNaLHlCQUFlO1VBRWYsbUJBQWlCO0FDQ3JCOztBREVBO0VBQ0ksZUFBQTtFQUNBLGNBQWM7RUFDZCxpQkFBYTtBQ0NqQjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixxQkFBcUI7RUFDckIsbUJBQW1CO0FBQ3JCOztBQUNBLG9EQUFvRCIsImZpbGUiOiJzcmMvYXBwL25ldy1yZXNjdWVzL25ldy1yZXNjdWVzLmNvbXBvbmVudC5jc3MifQ== */";
+    __webpack_exports__["default"] = ".card-img-top, .card {\n  border-radius: 15px;\n}\n\n.row {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n}\n\n.card, #card-2, #card-3 {\n  margin-left: 5%;\n  margin-top: 5%;\n  margin-bottom: 5%;\n}\n\n.btn {\n  background-color: #ff7c55;\n  border-color: #ff7c55;\n  font-family: \"moon\";\n}\n\n/*# sourceMappingURL=new-rescues.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3LXJlc2N1ZXMvbmV3LXJlc2N1ZXMuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL25ldy1yZXNjdWVzL25ldy1yZXNjdWVzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxtQkFBbUI7QUNDdkI7O0FERUE7RUFDSSxvQkFBYTtFQUViLGFBQWE7RUFDYix3QkFBbUI7VUNFYix1QkFBdUI7RURDakMseUJBQXVCO1VBRW5CLG1CQUFjO0VBQ2QsOEJBQWlCO0VBQ3BCLDZCQUFBO1VBRUcsbUJBQUE7QUNDSjs7QUFFQTtFRENDLGVBQUE7RUNDQyxjQUFjO0VBQ2QsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLHFCQUFxQjtFQUNyQixtQkFBbUI7QUFDckI7O0FBQ0Esb0RBQW9EIiwiZmlsZSI6InNyYy9hcHAvbmV3LXJlc2N1ZXMvbmV3LXJlc2N1ZXMuY29tcG9uZW50LmNzcyJ9 */";
     /***/
   },
 
