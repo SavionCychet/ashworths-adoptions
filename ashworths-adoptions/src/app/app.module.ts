@@ -14,6 +14,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { NewAdoptsComponent } from './new-adopts/new-adopts.component';
+import { AdoptPageComponent } from './adopt-page/adopt-page.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { NewAdoptsComponent } from './new-adopts/new-adopts.component';
     ContactPageComponent,
     FooterComponent,
     NewAdoptsComponent,
+    AdoptPageComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +37,7 @@ import { NewAdoptsComponent } from './new-adopts/new-adopts.component';
     RouterModule.forRoot([
       { path: '', component: HomePageComponent },
       { path: 'about', component: AboutPageComponent },
+      { path: 'adopt', component: AdoptPageComponent },
       { path: 'contact', component: ContactPageComponent },
       
     ])
