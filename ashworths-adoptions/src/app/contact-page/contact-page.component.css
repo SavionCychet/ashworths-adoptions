@@ -27,3 +27,9 @@ h2{
     background-color: #ff7c55;
     border-color: #ff7c55;
 }
+
+.btn:active:focus{
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+    box-shadow: none;
+}

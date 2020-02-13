@@ -1,31 +1,30 @@
-h1{
+h1, h2{
     font-family: 'moon';
     display: flex;
     justify-content: center;
     margin-top: 3%;
 }
 
-.card-img-top, .card {
-    border-radius: 15px;
-}
-
-.row{
+p{
+    font-family: 'moon';
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.input-group{
+    width: 15%;
+    font-family: 'moon';
+    display: flex;
+    justify-content: center;
+    margin-left: 43%;
     flex-direction: row;
 }
 
- #card-2, #card-3{
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.btn{
+.btn {
+    font-family: 'moon';
+    display: flex;
     background-color: #ff7c55;
     border-color: #ff7c55;
-    font-family: "moon";
 }
 
 .btn:active:focus{
