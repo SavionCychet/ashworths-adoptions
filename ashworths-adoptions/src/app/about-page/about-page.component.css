@@ -9,3 +9,27 @@ p{
     margin-left: 20%;
     margin-right: 20%;
 }
+
+.btn {
+    font-family: 'moon';
+    display: flex;
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+}
+
+.btn:active:focus{
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+    box-shadow: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5%;
+}
+
+#donate-btn{
+    margin-right: 1%;
+}
