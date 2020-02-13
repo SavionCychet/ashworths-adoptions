@@ -32,7 +32,20 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<h1>WHO ARE WE?</h1>\r\n<p>\r\n    Ashworth's Adoptions is a non-profit dog shelter located in St. Louis, MO. Our team is\r\nmade up of volunteers and animal specialists who work to bring in dogs from the streets\r\nand give them new homes.\r\n</p>\r\n\r\n<h1>OUR MISSION</h1>\r\n<p>\r\n    With the rising rate of euthenization and animal abuse, we at Ashworth's devote our \r\nresources to finding abandoned or injured dogs left on the streets. Our mission is to \r\nbring them in, treat them if needed, and find new, loving homes for them. \r\n</p>\r\n\r\n<h1>HOW YOU CAN HELP</h1>\r\n<p>\r\n    \r\nAny donations of any amount are greatly appreciated. 100% of donations go directly towards\r\nour resources for helping dogs. You can also become a temporary member of our team \r\nand become a volunteer! The more hands we have helping our cause, the more dogs we can save\r\nfrom the streets!\r\n</p>\r\n\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<h1>WHO ARE WE?</h1>\r\n<p>\r\n    Ashworth's Adoptions is a non-profit dog shelter located in St. Louis, MO. Our team is\r\nmade up of volunteers and animal specialists who work to bring in dogs from the streets\r\nand give them new homes. Our organization was etablished this year in 2020 and\r\nso far, we've already rescued over 100 dogs!\r\n</p>\r\n\r\n<h1>OUR MISSION</h1>\r\n<p>\r\n    With the rising rate of euthenization and animal abuse, we at Ashworth's devote our \r\nresources to finding abandoned or injured dogs left on the streets. Our mission is to \r\nbring them in, treat them if needed, and find new, loving homes for them. \r\nWhile our organization is geared towards dogs, we would\r\none day like to have the reach and resources to rescue\r\nother animals as well, and beyond the borders of just\r\nSt. Louis.\r\n</p>\r\n\r\n<h1>HOW YOU CAN HELP</h1>\r\n<p>\r\n    \r\nAny donations of any amount are greatly appreciated. 100% of donations go directly towards\r\nour resources for helping dogs. You can also become a temporary member of our team \r\nand become a volunteer! We currently have 34 volunteers of all ages on our team\r\nand we're always looking for more! The more hands we have helping our cause, the more dogs we can save\r\nfrom the streets!\r\n</p>\r\n\r\n<div class=\"buttons\">\r\n<button type=\"button\" class=\"btn btn-primary\" id=\"donate-btn\">DONATE</button>\r\n<button type=\"button\" class=\"btn btn-primary\" id=\"volunteer-btn\"> VOLUNTEER</button>\r\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/adopt-page/adopt-page.component.html":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/adopt-page/adopt-page.component.html ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<h1>DOGS CURRENTLY UP FOR ADOPTION</h1>\n\n<div class=\"row\">\n    <div class=\"card\" id=\"card-1\" style=\"width: 18rem;\">\n        <img src=\"../../assets/images/lucky.jpg\" class=\"card-img-top\" alt=\"...\">\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">Lucky</h5>\n          <p class=\"card-text\">\n            Age: 1\n            <br>\n              Gender: Male\n            <br>\n            Breed: Chihuahua\n          </p>\n          <a href=\"#\" class=\"btn btn-primary\">Learn More</a>\n        </div>\n      </div>\n    \n      <div class=\"card\" id=\"card-2\" style=\"width: 18rem;\">\n        <img src=\"../../assets/images/maxwell.jpg\" class=\"card-img-top\" alt=\"...\">\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">Maxwell</h5>\n          <p class=\"card-text\">Age: 3\n              <br>\n              Gender: Male\n              <br>\n              Breed: Unknown</p>\n          <a href=\"#\" class=\"btn btn-primary\">Learn More</a>\n        </div>\n      </div>\n    \n      <div class=\"card\" id=\"card-3\" style=\"width: 18rem;\">\n        <img src=\"../../assets/images/daisy.jpg\" class=\"card-img-top\" alt=\"...\">\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">Daisy</h5>\n          <p class=\"card-text\">Age: 2\n              <br>\n              Gender: Female\n              <br>\n              Breed: Golden retriever</p>\n          <a href=\"#\" class=\"btn btn-primary\">Learn More</a>\n        </div>\n      </div>\n      </div>");
 
 /***/ }),
 
@@ -45,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\r\n<navbar></navbar>\r\n\r\n\r\n\r\n\r\n<router-outlet></router-outlet>\r\n\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<navbar></navbar>\r\n<router-outlet></router-outlet>\r\n");
 
 /***/ }),
 
@@ -62,6 +75,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/donate-page/donate-page.component.html":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/donate-page/donate-page.component.html ***!
+  \**********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<h1>DONATE TO ASHWORTH'S!</h1>\n<p>Your donations are a big help in keeping our mission alive!</p>\n\n<h2>SELECT AMOUNT</h2>\n\n\n<div class=\"input-group mb-3\">\n    <div class=\"input-group-prepend\">\n      <span class=\"input-group-text\">$</span>\n      <span class=\"input-group-text\">0.00</span>\n    </div>\n    <input type=\"text\" class=\"form-control\" aria-label=\"Amount (to the nearest dollar)\">\n    <button type=\"button\" class=\"btn btn-primary\">DONATE VIA PAYPAL</button>\n\n  </div>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html":
 /*!************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/footer/footer.component.html ***!
@@ -71,7 +97,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>footer works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<footer>\n    <div class=\"socials\">\n        <p>Follow us</p>\n        <img class=\"icon\" src=\"./../../assets/images/social media icons/facebook.png\"/>\n        <img class=\"icon\" src=\"./../../assets/images/social media icons/instagram.png\"/>\n        <img class=\"icon\" src=\"./../../assets/images/social media icons/twitter.png\"/>\n\n        <p class=\"news-sub\">Subscribe to our newsletter</p>\n        <form>\n            <div class=\"form-group\">\n              <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" placeholder=\"Enter email\">\n            </div>\n        </form>\n        <button type=\"button\" class=\"btn btn-primary\">Subscribe</button>\n        \n    </div>\n    <!-- <p>copyright</p> -->\n</footer>");
 
 /***/ }),
 
@@ -84,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<imgslider></imgslider>\n<welcome></welcome>\n<h1>RECENT RESCUES</h1>\n<new-rescues></new-rescues>\n<h2>NEWLY ADOPTED</h2>\n<new-adopts></new-adopts>");
+/* harmony default export */ __webpack_exports__["default"] = ("<imgslider></imgslider>\n<welcome></welcome>\n<h1>RECENT RESCUES</h1>\n<new-rescues></new-rescues>\n<h2>NEWLY ADOPTED</h2>\n<new-adopts></new-adopts>\n<app-footer></app-footer>");
 
 /***/ }),
 
@@ -391,7 +417,7 @@ function __importDefault(mod) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("h1{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n    margin-top: 3%;\r\n    font-family: \"moon\";\r\n}\r\n\r\np{\r\n    margin-left: 20%;\r\n    margin-right: 20%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQtcGFnZS9hYm91dC1wYWdlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxvQkFBYTtJQUFiLGFBQWE7SUFDYix3QkFBdUI7WUFBdkIsdUJBQXVCO0lBQ3ZCLGNBQWM7SUFDZCxtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxnQkFBZ0I7SUFDaEIsaUJBQWlCO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvYWJvdXQtcGFnZS9hYm91dC1wYWdlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMXtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIG1hcmdpbi10b3A6IDMlO1xyXG4gICAgZm9udC1mYW1pbHk6IFwibW9vblwiO1xyXG59XHJcblxyXG5we1xyXG4gICAgbWFyZ2luLWxlZnQ6IDIwJTtcclxuICAgIG1hcmdpbi1yaWdodDogMjAlO1xyXG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("h1{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n    margin-top: 3%;\r\n    font-family: \"moon\";\r\n}\r\n\r\np{\r\n    margin-left: 20%;\r\n    margin-right: 20%;\r\n}\r\n\r\n.btn {\r\n    font-family: 'moon';\r\n    display: -webkit-box;\r\n    display: flex;\r\n    background-color: #ff7c55;\r\n    border-color: #ff7c55;\r\n}\r\n\r\n.btn:active:focus{\r\n    background-color: #ff7c55;\r\n    border-color: #ff7c55;\r\n    box-shadow: none;\r\n}\r\n\r\n.buttons{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-orient: horizontal;\r\n    -webkit-box-direction: normal;\r\n            flex-direction: row;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n    margin: 5%;\r\n}\r\n\r\n#donate-btn{\r\n    margin-right: 1%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQtcGFnZS9hYm91dC1wYWdlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxvQkFBYTtJQUFiLGFBQWE7SUFDYix3QkFBdUI7WUFBdkIsdUJBQXVCO0lBQ3ZCLGNBQWM7SUFDZCxtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxnQkFBZ0I7SUFDaEIsaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLG9CQUFhO0lBQWIsYUFBYTtJQUNiLHlCQUF5QjtJQUN6QixxQkFBcUI7QUFDekI7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIscUJBQXFCO0lBQ3JCLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLG9CQUFhO0lBQWIsYUFBYTtJQUNiLDhCQUFtQjtJQUFuQiw2QkFBbUI7WUFBbkIsbUJBQW1CO0lBQ25CLHdCQUF1QjtZQUF2Qix1QkFBdUI7SUFDdkIsVUFBVTtBQUNkOztBQUVBO0lBQ0ksZ0JBQWdCO0FBQ3BCIiwiZmlsZSI6InNyYy9hcHAvYWJvdXQtcGFnZS9hYm91dC1wYWdlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJoMXtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIG1hcmdpbi10b3A6IDMlO1xyXG4gICAgZm9udC1mYW1pbHk6IFwibW9vblwiO1xyXG59XHJcblxyXG5we1xyXG4gICAgbWFyZ2luLWxlZnQ6IDIwJTtcclxuICAgIG1hcmdpbi1yaWdodDogMjAlO1xyXG59XHJcblxyXG4uYnRuIHtcclxuICAgIGZvbnQtZmFtaWx5OiAnbW9vbic7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmN2M1NTtcclxuICAgIGJvcmRlci1jb2xvcjogI2ZmN2M1NTtcclxufVxyXG5cclxuLmJ0bjphY3RpdmU6Zm9jdXN7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmY3YzU1O1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjZmY3YzU1O1xyXG4gICAgYm94LXNoYWRvdzogbm9uZTtcclxufVxyXG5cclxuLmJ1dHRvbnN7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgbWFyZ2luOiA1JTtcclxufVxyXG5cclxuI2RvbmF0ZS1idG57XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDElO1xyXG59Il19 */");
 
 /***/ }),
 
@@ -421,6 +447,50 @@ AboutPageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./about-page.component.css */ "./src/app/about-page/about-page.component.css")).default]
     })
 ], AboutPageComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/adopt-page/adopt-page.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/adopt-page/adopt-page.component.css ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("h1 {\n  font-family: 'moon';\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  margin-top: 3%;\n}\n\n.card-img-top, .card {\n  border-radius: 15px;\n}\n\n.row {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n}\n\n#card-2, #card-3 {\n  margin-left: 5%;\n  margin-top: 5%;\n  margin-bottom: 5%;\n}\n\n.btn {\n  background-color: #ff7c55;\n  border-color: #ff7c55;\n  font-family: \"moon\";\n}\n\n.btn:active:focus {\n  background-color: #ff7c55;\n  border-color: #ff7c55;\n  box-shadow: none;\n}\n\n/*# sourceMappingURL=adopt-page.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWRvcHQtcGFnZS9hZG9wdC1wYWdlLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9hZG9wdC1wYWdlL2Fkb3B0LXBhZ2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1CQUFtQjtFQUNuQixvQkFBYTtFQUViLGFBQVk7RUFDZix3QkFBQTtVQUVELHVCQUFxQjtFQUNqQixjQUFhO0FDQ2pCOztBREVBO0VBQ0ksbUJBQWE7QUNDakI7O0FBRUE7RURDQyxvQkFBQTtFQUVBLGFBQVM7RUFDTix3QkFBZTtVQUVmLHVCQUFpQjtFQUNwQix5QkFBQTtVQUVHLG1CQUFBO0VBQ0EsOEJBQXlCO0VBQ3pCLDZCQUFxQjtVQUV4QixtQkFBQTtBQ0NEOztBQUVBO0VEQ0ksZUFBYztFQUNkLGNBQVk7RUFDZixpQkFBQTtBQ0NEOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLHFCQUFxQjtFQUNyQixtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIscUJBQXFCO0VBRWIsZ0JBQWdCO0FBQzFCOztBQUNBLG1EQUFtRCIsImZpbGUiOiJzcmMvYXBwL2Fkb3B0LXBhZ2UvYWRvcHQtcGFnZS5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/adopt-page/adopt-page.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/adopt-page/adopt-page.component.ts ***!
+  \****************************************************/
+/*! exports provided: AdoptPageComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AdoptPageComponent", function() { return AdoptPageComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let AdoptPageComponent = class AdoptPageComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+AdoptPageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-adopt-page',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./adopt-page.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/adopt-page/adopt-page.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./adopt-page.component.css */ "./src/app/adopt-page/adopt-page.component.css")).default]
+    })
+], AdoptPageComponent);
 
 
 
@@ -527,6 +597,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _contact_page_contact_page_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./contact-page/contact-page.component */ "./src/app/contact-page/contact-page.component.ts");
 /* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
 /* harmony import */ var _new_adopts_new_adopts_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./new-adopts/new-adopts.component */ "./src/app/new-adopts/new-adopts.component.ts");
+/* harmony import */ var _adopt_page_adopt_page_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./adopt-page/adopt-page.component */ "./src/app/adopt-page/adopt-page.component.ts");
+/* harmony import */ var _donate_page_donate_page_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./donate-page/donate-page.component */ "./src/app/donate-page/donate-page.component.ts");
+
+
 
 
 
@@ -558,6 +632,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _contact_page_contact_page_component__WEBPACK_IMPORTED_MODULE_13__["ContactPageComponent"],
             _footer_footer_component__WEBPACK_IMPORTED_MODULE_14__["FooterComponent"],
             _new_adopts_new_adopts_component__WEBPACK_IMPORTED_MODULE_15__["NewAdoptsComponent"],
+            _adopt_page_adopt_page_component__WEBPACK_IMPORTED_MODULE_16__["AdoptPageComponent"],
+            _donate_page_donate_page_component__WEBPACK_IMPORTED_MODULE_17__["DonatePageComponent"],
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -566,7 +642,9 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"].forRoot([
                 { path: '', component: _home_page_home_page_component__WEBPACK_IMPORTED_MODULE_12__["HomePageComponent"] },
                 { path: 'about', component: _about_page_about_page_component__WEBPACK_IMPORTED_MODULE_11__["AboutPageComponent"] },
+                { path: 'adopt', component: _adopt_page_adopt_page_component__WEBPACK_IMPORTED_MODULE_16__["AdoptPageComponent"] },
                 { path: 'contact', component: _contact_page_contact_page_component__WEBPACK_IMPORTED_MODULE_13__["ContactPageComponent"] },
+                { path: 'donate', component: _donate_page_donate_page_component__WEBPACK_IMPORTED_MODULE_17__["DonatePageComponent"] }
             ])
         ],
         providers: [],
@@ -587,7 +665,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".form-group{\r\n    margin-left: 20%;\r\n    margin-right: 20%;\r\n    margin-top: 3%;\r\n}\r\n\r\nh1{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n    font-family: \"moon\";\r\n    margin-top: 3%;\r\n}\r\n\r\nh2{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n    font-family: \"moon\";\r\n    font-size: 18px;\r\n    margin-left: 20%;\r\n    margin-right: 20%;\r\n}\r\n\r\n.btn{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    margin-left: 20%;\r\n    margin-top: 3%;\r\n    background-color: #ff7c55;\r\n    border-color: #ff7c55;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGFjdC1wYWdlL2NvbnRhY3QtcGFnZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksb0JBQWE7SUFBYixhQUFhO0lBQ2Isd0JBQXVCO1lBQXZCLHVCQUF1QjtJQUN2QixtQkFBbUI7SUFDbkIsY0FBYztBQUNsQjs7QUFFQTtJQUNJLG9CQUFhO0lBQWIsYUFBYTtJQUNiLHdCQUF1QjtZQUF2Qix1QkFBdUI7SUFDdkIsbUJBQW1CO0lBQ25CLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksb0JBQWE7SUFBYixhQUFhO0lBQ2IsZ0JBQWdCO0lBQ2hCLGNBQWM7SUFDZCx5QkFBeUI7SUFDekIscUJBQXFCO0FBQ3pCIiwiZmlsZSI6InNyYy9hcHAvY29udGFjdC1wYWdlL2NvbnRhY3QtcGFnZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmZvcm0tZ3JvdXB7XHJcbiAgICBtYXJnaW4tbGVmdDogMjAlO1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAyMCU7XHJcbiAgICBtYXJnaW4tdG9wOiAzJTtcclxufVxyXG5cclxuaDF7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBmb250LWZhbWlseTogXCJtb29uXCI7XHJcbiAgICBtYXJnaW4tdG9wOiAzJTtcclxufVxyXG5cclxuaDJ7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBmb250LWZhbWlseTogXCJtb29uXCI7XHJcbiAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICBtYXJnaW4tbGVmdDogMjAlO1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAyMCU7XHJcbn1cclxuXHJcbi5idG57XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IDIwJTtcclxuICAgIG1hcmdpbi10b3A6IDMlO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmN2M1NTtcclxuICAgIGJvcmRlci1jb2xvcjogI2ZmN2M1NTtcclxufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".form-group{\r\n    margin-left: 20%;\r\n    margin-right: 20%;\r\n    margin-top: 3%;\r\n}\r\n\r\nh1{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n    font-family: \"moon\";\r\n    margin-top: 3%;\r\n}\r\n\r\nh2{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n    font-family: \"moon\";\r\n    font-size: 18px;\r\n    margin-left: 20%;\r\n    margin-right: 20%;\r\n}\r\n\r\n.btn{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    margin-left: 20%;\r\n    margin-top: 3%;\r\n    background-color: #ff7c55;\r\n    border-color: #ff7c55;\r\n}\r\n\r\n.btn:active:focus{\r\n    background-color: #ff7c55;\r\n    border-color: #ff7c55;\r\n    box-shadow: none;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGFjdC1wYWdlL2NvbnRhY3QtcGFnZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGlCQUFpQjtJQUNqQixjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksb0JBQWE7SUFBYixhQUFhO0lBQ2Isd0JBQXVCO1lBQXZCLHVCQUF1QjtJQUN2QixtQkFBbUI7SUFDbkIsY0FBYztBQUNsQjs7QUFFQTtJQUNJLG9CQUFhO0lBQWIsYUFBYTtJQUNiLHdCQUF1QjtZQUF2Qix1QkFBdUI7SUFDdkIsbUJBQW1CO0lBQ25CLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksb0JBQWE7SUFBYixhQUFhO0lBQ2IsZ0JBQWdCO0lBQ2hCLGNBQWM7SUFDZCx5QkFBeUI7SUFDekIscUJBQXFCO0FBQ3pCOztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLHFCQUFxQjtJQUNyQixnQkFBZ0I7QUFDcEIiLCJmaWxlIjoic3JjL2FwcC9jb250YWN0LXBhZ2UvY29udGFjdC1wYWdlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9ybS1ncm91cHtcclxuICAgIG1hcmdpbi1sZWZ0OiAyMCU7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDIwJTtcclxuICAgIG1hcmdpbi10b3A6IDMlO1xyXG59XHJcblxyXG5oMXtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGZvbnQtZmFtaWx5OiBcIm1vb25cIjtcclxuICAgIG1hcmdpbi10b3A6IDMlO1xyXG59XHJcblxyXG5oMntcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGZvbnQtZmFtaWx5OiBcIm1vb25cIjtcclxuICAgIGZvbnQtc2l6ZTogMThweDtcclxuICAgIG1hcmdpbi1sZWZ0OiAyMCU7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDIwJTtcclxufVxyXG5cclxuLmJ0bntcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBtYXJnaW4tbGVmdDogMjAlO1xyXG4gICAgbWFyZ2luLXRvcDogMyU7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmY3YzU1O1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjZmY3YzU1O1xyXG59XHJcblxyXG4uYnRuOmFjdGl2ZTpmb2N1c3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZjdjNTU7XHJcbiAgICBib3JkZXItY29sb3I6ICNmZjdjNTU7XHJcbiAgICBib3gtc2hhZG93OiBub25lO1xyXG59Il19 */");
 
 /***/ }),
 
@@ -622,6 +700,50 @@ ContactPageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
+/***/ "./src/app/donate-page/donate-page.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/donate-page/donate-page.component.css ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("h1, h2{\r\n    font-family: 'moon';\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n    margin-top: 3%;\r\n}\r\n\r\np{\r\n    font-family: 'moon';\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n}\r\n\r\n.input-group{\r\n    width: 15%;\r\n    font-family: 'moon';\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-pack: center;\r\n            justify-content: center;\r\n    margin-left: 43%;\r\n    -webkit-box-orient: horizontal;\r\n    -webkit-box-direction: normal;\r\n            flex-direction: row;\r\n}\r\n\r\n.btn {\r\n    font-family: 'moon';\r\n    display: -webkit-box;\r\n    display: flex;\r\n    background-color: #ff7c55;\r\n    border-color: #ff7c55;\r\n}\r\n\r\n.btn:active:focus{\r\n    background-color: #ff7c55;\r\n    border-color: #ff7c55;\r\n    box-shadow: none;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZG9uYXRlLXBhZ2UvZG9uYXRlLXBhZ2UuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLG1CQUFtQjtJQUNuQixvQkFBYTtJQUFiLGFBQWE7SUFDYix3QkFBdUI7WUFBdkIsdUJBQXVCO0lBQ3ZCLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxtQkFBbUI7SUFDbkIsb0JBQWE7SUFBYixhQUFhO0lBQ2Isd0JBQXVCO1lBQXZCLHVCQUF1QjtBQUMzQjs7QUFFQTtJQUNJLFVBQVU7SUFDVixtQkFBbUI7SUFDbkIsb0JBQWE7SUFBYixhQUFhO0lBQ2Isd0JBQXVCO1lBQXZCLHVCQUF1QjtJQUN2QixnQkFBZ0I7SUFDaEIsOEJBQW1CO0lBQW5CLDZCQUFtQjtZQUFuQixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxtQkFBbUI7SUFDbkIsb0JBQWE7SUFBYixhQUFhO0lBQ2IseUJBQXlCO0lBQ3pCLHFCQUFxQjtBQUN6Qjs7QUFFQTtJQUNJLHlCQUF5QjtJQUN6QixxQkFBcUI7SUFDckIsZ0JBQWdCO0FBQ3BCIiwiZmlsZSI6InNyYy9hcHAvZG9uYXRlLXBhZ2UvZG9uYXRlLXBhZ2UuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImgxLCBoMntcclxuICAgIGZvbnQtZmFtaWx5OiAnbW9vbic7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBtYXJnaW4tdG9wOiAzJTtcclxufVxyXG5cclxucHtcclxuICAgIGZvbnQtZmFtaWx5OiAnbW9vbic7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbn1cclxuXHJcbi5pbnB1dC1ncm91cHtcclxuICAgIHdpZHRoOiAxNSU7XHJcbiAgICBmb250LWZhbWlseTogJ21vb24nO1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgbWFyZ2luLWxlZnQ6IDQzJTtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XHJcbn1cclxuXHJcbi5idG4ge1xyXG4gICAgZm9udC1mYW1pbHk6ICdtb29uJztcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmY3YzU1O1xyXG4gICAgYm9yZGVyLWNvbG9yOiAjZmY3YzU1O1xyXG59XHJcblxyXG4uYnRuOmFjdGl2ZTpmb2N1c3tcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZjdjNTU7XHJcbiAgICBib3JkZXItY29sb3I6ICNmZjdjNTU7XHJcbiAgICBib3gtc2hhZG93OiBub25lO1xyXG59Il19 */");
+
+/***/ }),
+
+/***/ "./src/app/donate-page/donate-page.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/donate-page/donate-page.component.ts ***!
+  \******************************************************/
+/*! exports provided: DonatePageComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DonatePageComponent", function() { return DonatePageComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let DonatePageComponent = class DonatePageComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+DonatePageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-donate-page',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./donate-page.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/donate-page/donate-page.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./donate-page.component.css */ "./src/app/donate-page/donate-page.component.css")).default]
+    })
+], DonatePageComponent);
+
+
+
+/***/ }),
+
 /***/ "./src/app/footer/footer.component.css":
 /*!*********************************************!*\
   !*** ./src/app/footer/footer.component.css ***!
@@ -631,7 +753,7 @@ ContactPageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = ("footer{\r\n    background-color: #ff7c55;\r\n    Width: 100%;\r\n    bottom: 0;\r\n}\r\n\r\n.socials{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    -webkit-box-orient: horizontal;\r\n    -webkit-box-direction: normal;\r\n            flex-direction: row;\r\n    -webkit-box-pack: start;\r\n            justify-content: flex-start;\r\n    margin-left: 2%;\r\n}\r\n\r\n.icon{\r\n    margin-left: 2%;\r\n    height: 35px;\r\n    margin-top: 0.7%;\r\n}\r\n\r\np{\r\n    color: white;\r\n    margin-top: 1%;\r\n}\r\n\r\n.news-sub{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    margin-left: 2%;\r\n    -webkit-box-pack: end;\r\n            justify-content: flex-end;\r\n}\r\n\r\n.btn{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    margin-left: 1%;\r\n    margin-top: 0.7%;\r\n    height: 20%;\r\n}\r\n\r\nform{\r\n    display: -webkit-box;\r\n    display: flex;\r\n    margin-left: 1%;\r\n    margin-top: 0.7%;\r\n    height: 20%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0kseUJBQXlCO0lBQ3pCLFdBQVc7SUFDWCxTQUFTO0FBQ2I7O0FBRUE7SUFDSSxvQkFBYTtJQUFiLGFBQWE7SUFDYiw4QkFBbUI7SUFBbkIsNkJBQW1CO1lBQW5CLG1CQUFtQjtJQUNuQix1QkFBMkI7WUFBM0IsMkJBQTJCO0lBQzNCLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsWUFBWTtJQUNaLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLFlBQVk7SUFDWixjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksb0JBQWE7SUFBYixhQUFhO0lBQ2IsZUFBZTtJQUNmLHFCQUF5QjtZQUF6Qix5QkFBeUI7QUFDN0I7O0FBRUE7SUFDSSxvQkFBYTtJQUFiLGFBQWE7SUFDYixlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLFdBQVc7QUFDZjs7QUFFQTtJQUNJLG9CQUFhO0lBQWIsYUFBYTtJQUNiLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZm9vdGVye1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmN2M1NTtcclxuICAgIFdpZHRoOiAxMDAlO1xyXG4gICAgYm90dG9tOiAwO1xyXG59XHJcblxyXG4uc29jaWFsc3tcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBmbGV4LXN0YXJ0O1xyXG4gICAgbWFyZ2luLWxlZnQ6IDIlO1xyXG59XHJcblxyXG4uaWNvbntcclxuICAgIG1hcmdpbi1sZWZ0OiAyJTtcclxuICAgIGhlaWdodDogMzVweDtcclxuICAgIG1hcmdpbi10b3A6IDAuNyU7XHJcbn1cclxuXHJcbnB7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgICBtYXJnaW4tdG9wOiAxJTtcclxufVxyXG5cclxuLm5ld3Mtc3Vie1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIG1hcmdpbi1sZWZ0OiAyJTtcclxuICAgIGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7XHJcbn1cclxuXHJcbi5idG57XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgbWFyZ2luLWxlZnQ6IDElO1xyXG4gICAgbWFyZ2luLXRvcDogMC43JTtcclxuICAgIGhlaWdodDogMjAlO1xyXG59XHJcblxyXG5mb3Jte1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIG1hcmdpbi1sZWZ0OiAxJTtcclxuICAgIG1hcmdpbi10b3A6IDAuNyU7XHJcbiAgICBoZWlnaHQ6IDIwJTtcclxufSJdfQ== */");
 
 /***/ }),
 
@@ -807,7 +929,7 @@ NavbarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".card-img-top, .card {\n  border-radius: 15px;\n}\n\n.row {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n}\n\n.card, #card-2, #card-3, #card-4, #card-5, #card-6 {\n  margin-left: 5%;\n  margin-top: 5%;\n  margin-bottom: 5%;\n}\n\n.btn {\n  background-color: #ff7c55;\n  border-color: #ff7c55;\n  font-family: \"moon\";\n}\n\n/*# sourceMappingURL=new-adopts.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3LWFkb3B0cy9uZXctYWRvcHRzLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9uZXctYWRvcHRzL25ldy1hZG9wdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1CQUFtQjtBQ0N2Qjs7QURFQTtFQUNJLG9CQUFhO0VBRWIsYUFBYTtFQUNiLHdCQUFtQjtVQ0ViLHVCQUF1QjtFRENqQyx5QkFBeUI7VUFFckIsbUJBQWM7RUFDZCw4QkFBaUI7RUFFcEIsNkJBQUE7VUFFRyxtQkFBQTtBQ0FKOztBQUVBO0VERUMsZUFBQTtFQ0FDLGNBQWM7RUFDZCxpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIscUJBQXFCO0VBQ3JCLG1CQUFtQjtBQUNyQjs7QUFDQSxtREFBbUQiLCJmaWxlIjoic3JjL2FwcC9uZXctYWRvcHRzL25ldy1hZG9wdHMuY29tcG9uZW50LmNzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = (".card-img-top, .card {\n  border-radius: 15px;\n}\n\n.row {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n}\n\n.card, #card-2, #card-3, #card-4, #card-5, #card-6 {\n  margin-left: 5%;\n  margin-top: 5%;\n  margin-bottom: 5%;\n}\n\n.btn {\n  background-color: #ff7c55;\n  border-color: #ff7c55;\n  font-family: \"moon\";\n}\n\n.btn:active:focus {\n  background-color: #ff7c55;\n  border-color: #ff7c55;\n  box-shadow: none;\n}\n\n/*# sourceMappingURL=new-adopts.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3LWFkb3B0cy9uZXctYWRvcHRzLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9uZXctYWRvcHRzL25ldy1hZG9wdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLG1CQUFtQjtBQ0N2Qjs7QURFQTtFQUNJLG9CQUFhO0VBRWIsYUFBYTtFQUNiLHdCQUFtQjtVQ0ViLHVCQUF1QjtFRENqQyx5QkFBeUI7VUFFckIsbUJBQWM7RUFDZCw4QkFBaUI7RUFFcEIsNkJBQUE7VUFFRyxtQkFBQTtBQ0FKOztBQUVBO0VERUMsZUFBQTtFQ0FDLGNBQWM7RURFaEIsaUJBQWlCO0FDQWpCOztBQUVBO0VERUMseUJBQUE7RUNBQyxxQkFBcUI7RUFDckIsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLHFCQUFxQjtFQUViLGdCQUFnQjtBQUMxQjs7QUFDQSxtREFBbUQiLCJmaWxlIjoic3JjL2FwcC9uZXctYWRvcHRzL25ldy1hZG9wdHMuY29tcG9uZW50LmNzcyJ9 */");
 
 /***/ }),
 
@@ -851,7 +973,7 @@ NewAdoptsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".card-img-top, .card {\n  border-radius: 15px;\n}\n\n.row {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n}\n\n.card, #card-2, #card-3 {\n  margin-left: 5%;\n  margin-top: 5%;\n  margin-bottom: 5%;\n}\n\n.btn {\n  background-color: #ff7c55;\n  border-color: #ff7c55;\n  font-family: \"moon\";\n}\n\n/*# sourceMappingURL=new-rescues.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3LXJlc2N1ZXMvbmV3LXJlc2N1ZXMuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL25ldy1yZXNjdWVzL25ldy1yZXNjdWVzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxtQkFBbUI7QUNDdkI7O0FERUE7RUFDSSxvQkFBYTtFQUViLGFBQWE7RUFDYix3QkFBbUI7VUNFYix1QkFBdUI7RURDakMseUJBQXVCO1VBRW5CLG1CQUFjO0VBQ2QsOEJBQWlCO0VBQ3BCLDZCQUFBO1VBRUcsbUJBQUE7QUNDSjs7QUFFQTtFRENDLGVBQUE7RUNDQyxjQUFjO0VBQ2QsaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLHFCQUFxQjtFQUNyQixtQkFBbUI7QUFDckI7O0FBQ0Esb0RBQW9EIiwiZmlsZSI6InNyYy9hcHAvbmV3LXJlc2N1ZXMvbmV3LXJlc2N1ZXMuY29tcG9uZW50LmNzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = (".card-img-top, .card {\n  border-radius: 15px;\n}\n\n.row {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n          flex-direction: row;\n}\n\n.card, #card-2, #card-3 {\n  margin-left: 5%;\n  margin-top: 5%;\n  margin-bottom: 5%;\n}\n\n.btn {\n  background-color: #ff7c55;\n  border-color: #ff7c55;\n  font-family: \"moon\";\n}\n\n.btn:active:focus {\n  background-color: #ff7c55;\n  border-color: #ff7c55;\n  box-shadow: none;\n}\n\n/*# sourceMappingURL=new-rescues.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmV3LXJlc2N1ZXMvbmV3LXJlc2N1ZXMuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL25ldy1yZXNjdWVzL25ldy1yZXNjdWVzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxtQkFBbUI7QUNDdkI7O0FERUE7RUFDSSxvQkFBYTtFQUViLGFBQWE7RUFDYix3QkFBbUI7VUNFYix1QkFBdUI7RURDakMseUJBQXVCO1VBRW5CLG1CQUFjO0VBQ2QsOEJBQWlCO0VBQ3BCLDZCQUFBO1VBRUcsbUJBQUE7QUNDSjs7QUFFQTtFRENDLGVBQUE7RUNDQyxjQUFjO0VEQ2hCLGlCQUFpQjtBQ0NqQjs7QUFFQTtFRENDLHlCQUFBO0VDQ0MscUJBQXFCO0VBQ3JCLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QixxQkFBcUI7RUFFYixnQkFBZ0I7QUFDMUI7O0FBQ0Esb0RBQW9EIiwiZmlsZSI6InNyYy9hcHAvbmV3LXJlc2N1ZXMvbmV3LXJlc2N1ZXMuY29tcG9uZW50LmNzcyJ9 */");
 
 /***/ }),
 
