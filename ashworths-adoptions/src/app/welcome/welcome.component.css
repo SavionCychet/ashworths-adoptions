@@ -12,6 +12,10 @@
   color: white;
 }
 
+h1 {
+  font-family: 'moon';
+}
+
 @media only screen and (max-width: 600px) {
   .lead {
     display: -webkit-box;
@@ -20,6 +24,10 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  h1 {
+    font-size: 48px;
+    font-family: 'moon';
   }
 }
 /*# sourceMappingURL=welcome.component.css.map */

@@ -8,9 +8,18 @@
     color: white;
 }
 
+h1{
+    font-family: 'moon';
+}
+
 @media only screen and (max-width: 600px) {
         .lead{
             display: flex;
             justify-content: center;
+        }
+
+        h1{
+            font-size: 48px;
+            font-family: 'moon';
         }
 }
