@@ -1,0 +1,49 @@
+@mixin flexSettings {
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    @include flexSettings();
+    width: 300px;
+}
+
+.lucky-intro{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+    flex-direction: row;
+    font-family: 'moon';
+}
+
+h1{
+    margin-left: 3%;
+    font-size: 100px;
+}
+
+.paragraphs{
+    margin-left: 10%;
+    margin-right: 19%;
+    margin-top: 3%;
+    // font-family: 'moon';
+}
+
+p{
+    margin-top: 2%;
+}
+
+.btn {
+    @include flexSettings();
+    font-family: 'moon';
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+    margin-top: 3%;
+}
+
+.btn {
+    font-family: 'moon';
+    display: flex;
+    margin-left: 10%;
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+}

@@ -12,4 +12,9 @@ export class DonatePageComponent implements OnInit {
   ngOnInit() {
   }
 
+  logMessage(value){
+    const xxo = value
+    console.log(xxo);
+  }
+
 }

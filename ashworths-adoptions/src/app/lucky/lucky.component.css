@@ -1,0 +1,61 @@
+img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 300px;
+}
+
+.lucky-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 5%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: 'moon';
+}
+
+h1 {
+  margin-left: 3%;
+  font-size: 100px;
+}
+
+.paragraphs {
+  margin-left: 10%;
+  margin-right: 19%;
+  margin-top: 3%;
+}
+
+p {
+  margin-top: 2%;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'moon';
+  background-color: #ff7c55;
+  border-color: #ff7c55;
+  margin-top: 3%;
+}
+
+.btn {
+  font-family: 'moon';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10%;
+  background-color: #ff7c55;
+  border-color: #ff7c55;
+}
+/*# sourceMappingURL=lucky.component.css.map */

@@ -18,6 +18,9 @@ import { AdoptPageComponent } from './adopt-page/adopt-page.component';
 import { DonatePageComponent } from './donate-page/donate-page.component';
 import { AdoptionFormPageComponent } from './adoption-form-page/adoption-form-page.component';
 import { DoneComponent } from './done/done.component';
+import { LuckyComponent } from './lucky/lucky.component';
+import { MaxwellComponent } from './maxwell/maxwell.component';
+import { DaisyComponent } from './daisy/daisy.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +38,9 @@ import { DoneComponent } from './done/done.component';
     DonatePageComponent,
     AdoptionFormPageComponent,
     DoneComponent,
+    LuckyComponent,
+    MaxwellComponent,
+    DaisyComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,7 +53,10 @@ import { DoneComponent } from './done/done.component';
       { path: 'contact', component: ContactPageComponent },
       { path: 'donate', component: DonatePageComponent },
       { path: 'adoption', component: AdoptionFormPageComponent },
-      { path: 'done', component: DoneComponent }
+      { path: 'done', component: DoneComponent },
+      { path: 'lucky', component: LuckyComponent },
+      { path: 'maxwell', component: MaxwellComponent },
+      { path: 'daisy', component: DaisyComponent }
       
     ])
   ],

@@ -13,3 +13,4 @@ export class AdoptPageComponent implements OnInit {
   }
 
 }
+
