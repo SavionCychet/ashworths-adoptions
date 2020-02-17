@@ -1,10 +1,17 @@
-body{
-    background: #ff7c55
+body {
+  background: #ff7c55;
 }
 
-h1, h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "moon";
+h1, h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "moon";
 }
+/*# sourceMappingURL=home-page.component.css.map */

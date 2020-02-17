@@ -47,4 +47,11 @@ h1 {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
+@media only screen and (max-width: 600px) {
+  h1, .card {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 /*# sourceMappingURL=adopt-page.component.css.map */

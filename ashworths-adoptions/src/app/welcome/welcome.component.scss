@@ -7,3 +7,10 @@
     justify-content: center;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+        .lead{
+            display: flex;
+            justify-content: center;
+        }
+}

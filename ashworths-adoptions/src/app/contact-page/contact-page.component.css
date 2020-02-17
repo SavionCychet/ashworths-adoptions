@@ -33,3 +33,11 @@ h2{
     border-color: #ff7c55;
     box-shadow: none;
 }
+
+
+@media only screen and (max-width: 600px) {
+    h1, h2, .btn{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
