@@ -16,6 +16,8 @@ import { FooterComponent } from './footer/footer.component';
 import { NewAdoptsComponent } from './new-adopts/new-adopts.component';
 import { AdoptPageComponent } from './adopt-page/adopt-page.component';
 import { DonatePageComponent } from './donate-page/donate-page.component';
+import { AdoptionFormPageComponent } from './adoption-form-page/adoption-form-page.component';
+import { DoneComponent } from './done/done.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { DonatePageComponent } from './donate-page/donate-page.component';
     NewAdoptsComponent,
     AdoptPageComponent,
     DonatePageComponent,
+    AdoptionFormPageComponent,
+    DoneComponent,
   ],
   imports: [
     BrowserModule,
@@ -41,7 +45,9 @@ import { DonatePageComponent } from './donate-page/donate-page.component';
       { path: 'about', component: AboutPageComponent },
       { path: 'adopt', component: AdoptPageComponent },
       { path: 'contact', component: ContactPageComponent },
-      { path: 'donate', component: DonatePageComponent }
+      { path: 'donate', component: DonatePageComponent },
+      { path: 'adoption', component: AdoptionFormPageComponent },
+      { path: 'done', component: DoneComponent }
       
     ])
   ],

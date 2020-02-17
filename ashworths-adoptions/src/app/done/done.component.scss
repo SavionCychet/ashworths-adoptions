@@ -1,0 +1,34 @@
+@mixin flexSettings {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2{
+    @include flexSettings();
+    font-family: 'moon';
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+h2{
+    margin: 5%;
+}
+
+.address{
+    font-size: 30px;
+}
+
+
+.btn{
+    display: flex;
+    margin-left: 45%;
+    margin-top: 5%;
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+}
+
+.btn:active:focus{
+    background-color: #ff7c55;
+    border-color: #ff7c55;
+    box-shadow: none;
+}

@@ -1,32 +1,31 @@
-h1, h2{
-    font-family: 'moon';
-    display: flex;
-    justify-content: center;
+.form-group{
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 3%;
 }
 
-p{
-    font-family: 'moon';
+h1{
     display: flex;
     justify-content: center;
-}
-
-.input-group{
-    width: 15%;
-    font-family: 'moon';
-    display: flex;
-    justify-content: center;
-    margin-left: 43%;
+    font-family: "moon";
     margin-top: 3%;
-    flex-direction: row;
 }
 
-.btn {
-    font-family: 'moon';
+h2{
     display: flex;
+    justify-content: center;
+    font-family: "moon";
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.btn{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 3%;
     background-color: #ff7c55;
     border-color: #ff7c55;
-    margin-top: 25%;
 }
 
 .btn:active:focus{

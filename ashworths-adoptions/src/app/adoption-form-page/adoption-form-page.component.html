@@ -1,0 +1,40 @@
+<h1>You're almost there!</h1>
+
+<h2>Let's schedual an appointment for you to come see your new pet and finish the process from there!</h2>
+    
+    <!-- <form>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Example label</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+        </div>
+    </form> -->
+
+<form>
+    <div class="form-group">
+          <label for="exampleFormControlInput1">NAME</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+    </div>
+    <div class="form-group">
+            <label for="exampleFormControlInput1">EMAIL ADDRESS</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+          </div>
+    <div class="form-group">
+            <label for="exampleFormControlInput1">PHONE</label>
+            <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required>
+      </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlInput1">DESIRED DATE</label>
+        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="xxx-xxx-xxxx">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlInput1">DESIRED TIME (HR:MN AM/PM)</label>
+        <input type="time" class="form-control" id="exampleFormControlInput1" placeholder="">
+    </div>
+</form>
+    
+<button type="button" class="btn btn-primary" routerLink="/done">Submit</button>
+
+<app-footer></app-footer>
