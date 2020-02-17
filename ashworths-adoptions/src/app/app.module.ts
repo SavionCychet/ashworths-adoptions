@@ -21,6 +21,7 @@ import { DoneComponent } from './done/done.component';
 import { LuckyComponent } from './lucky/lucky.component';
 import { MaxwellComponent } from './maxwell/maxwell.component';
 import { DaisyComponent } from './daisy/daisy.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { DaisyComponent } from './daisy/daisy.component';
     LuckyComponent,
     MaxwellComponent,
     DaisyComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
