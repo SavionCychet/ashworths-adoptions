@@ -5,7 +5,8 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 300px;
+  width: 350px;
+  border-radius: 20px;
 }
 
 .lucky-intro {
