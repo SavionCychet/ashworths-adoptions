@@ -14,7 +14,7 @@ img{
     margin-left: 10%;
     margin-top: 5%;
     flex-direction: row;
-    font-family: 'moon';
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 h1{
@@ -35,14 +35,14 @@ p{
 
 .btn {
     @include flexSettings();
-    font-family: 'moon';
+    font-family: 'Balsamiq Sans', cursive;
     background-color: #ff7c55;
     border-color: #ff7c55;
     margin-top: 3%;
 }
 
 .btn {
-    font-family: 'moon';
+    font-family: 'Balsamiq Sans', cursive;
     display: flex;
     margin-left: 10%;
     background-color: #ff7c55;

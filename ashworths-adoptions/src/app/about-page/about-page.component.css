@@ -2,7 +2,7 @@ h1{
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    font-family: "moon";
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 p{
@@ -11,7 +11,7 @@ p{
 }
 
 .btn {
-    font-family: 'moon';
+    font-family: 'Balsamiq Sans', cursive;
     display: flex;
     background-color: #ff7c55;
     border-color: #ff7c55;
